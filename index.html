@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Endermite</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Ceviche+One|Fira+Sans|Julius+Sans+One" rel="stylesheet">
+    <link href="css/hipster_cards.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/blockd.css">
+</head>
+<body>
+
+<div class="modal fade" id="staffModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="title">Skylar</h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<video class="bgvid" playsinline preload="auto" loop="loop" autoplay="false" muted="muted" volume="0">
+    <source src="images/compress.mp4" type="video/webm"
+            responsive-src="assets/img/rubik_responsive.jpg">
+    <source src="http://hpbt.net/images/videos/compress.mp4" type="video/mp4">
+    Video not supported
+</video>
+
+<div class="container">
+    <div class="top cover" id="top">
+        <div class="top-wrapper">
+            <h1>ENDERMITE</h1>
+            <p>GOING BACK TO THE GLORY DAYS OF CLASSIC MINECRAFT</p>
+        </div>
+
+        <div class="row navigation">
+            <div class="nav-wrapper">
+                <div class="col-md-1 nav-item brand hidden"><a href="#"><p>ENDERMITE</p></a></div>
+                <div class="col-md-2 nav-item col-md-offset-1 red"><a href="#about"><i class="fa fa-3x fa-exclamation"></i> <p>ABOUT</p></a></div>
+                <div class="col-md-2 nav-item green"><a href=""><i class="fa fa-3x fa-money"></i> <p>STORE</p></a></div>
+                <div class="col-md-2 nav-item blue"><a href="#top"><i class="fa fa-3x fa-home"></i> <p>HOME</p></a></div>
+                <div class="col-md-2 nav-item yellow"><a href=""><i class="fa fa-3x fa-comments"></i> <p>FORUM</p></a></div>
+                <div class="col-md-2 nav-item purple"><a href="#staff"><i class="fa fa-3x fa-users"></i> <p>STAFF</p></a></div>
+            </div>
+        </div>
+
+        <h2 class="arrow"><a href="#about" class="glyphicon glyphicon-chevron-down"></a></h2>
+
+        <video class="bgvid" playsinline preload="auto" loop="loop" autoplay="false" muted="muted" volume="0">
+            <source src="images/compress.mp4" type="video/webm">
+            <source src="http://hpbt.net/images/videos/compress.mp4" type="video/mp4">
+            Video not supported
+        </video>
+    </div>
+
+    <div class="excerpt excerpt-white" id="about">
+        <div class="excerpt-wrapper">
+            <h2>About Us</h2>
+            <div class="separator">
+                <div class="line"></div>
+                <h3><i class="fa fa-cubes"></i></h3>
+                <div class="line"></div>
+            </div>
+            <p class="lead">You know what you never see anymore? A server where you spawn in, walk outside, and build.</p>
+            <p class="lead">We at Endermite are going back to the days of Early Beta when combat wasn't the norm and there were no minigames. We're making this server around how Minecraft was meant to be played.</p>
+            <p class="lead">Think back, if you're old enough, to the glory days. Servers were simple places where people could build entire communities out of nothing. Minecraft didn't need minigames - if you wanted to shoot people you'd fire up GTA.</p>
+            <p class="lead">That is our vision. We want you to have complete freedom while still having peace of mind. That is why griefing is not allowed and PVP is disabled.</p>
+        </div>
+    </div>
+    <div class="excerpt excerpt-black" id="why">
+        <div class="excerpt-wrapper">
+            <h2>Why We're Doing It</h2>
+            <div class="separator">
+                <div class="line"></div>
+                <h3><i class="fa fa-cubes"></i></h3>
+                <div class="line"></div>
+            </div>
+            <p class="lead">This server is for people who are tired of PVP and minigames. This is for people who enjoy the survival and building aspect of Single Player but want to play with friends. This server is for people who enjoy Realms but wish for more people to play with and more functionality.</p>
+            <p class="lead">This server is for people who <u>LOVED</u> the early days - because even though we run the latest version of Minecraft, it will <u>feel</u> like Beta 1.8.1</p>
+        </div>
+    </div>
+    <div class="spacer-md"></div>
+    <div class="excerpt excerpt-grey" id="staff">
+        <div class="excerpt-wrapper">
+            <h2>Staff</h2>
+            <div class="separator">
+                <div class="line"></div>
+                <h3><i class="fa fa-cubes"></i></h3>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <button class="btn btn-primary btn-lg filter" data-filter="all">All Staff</button>
+                <button class="btn btn-warning btn-lg filter" data-filter=".owners">Owners</button>
+                <button class="btn btn-info btn-lg filter" data-filter=".admins">Admins</button>
+                <button class="btn btn-danger btn-lg filter" data-filter=".moderators">Moderators</button>
+                <button class="btn btn-success btn-lg filter" data-filter=".mayors">Mayors</button>
+            </div>
+            <hr>
+            <div class="row mixitup">
+                <div class="col-lg-4 col-md-3 mix owners">
+                    <div class="card-box">
+                        <div class="card">
+                            <div class="header">
+                                <img src="https://mc-heads.net/avatar/SecretlyAGuy"/>
+                                <div class="filter"></div>
+
+                                <div class="actions">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="SecretlyAGuy" data-desc="A complete idiot that thinks they're magic.">
+                                        About Me
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4 class="title">SecretlyAGuy</h4>
+                                <h6 class="category"><span class="label label-warning">Owner</span></h6>
+                                <hr>
+                            </div>
+                        </div> <!-- end card -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 mix owners">
+                    <div class="card-box">
+                        <div class="card">
+                            <div class="header">
+                                <img src="https://mc-heads.net/avatar/ckvoss/300"/>
+                                <div class="filter"></div>
+
+                                <div class="actions">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="ckvoss" data-desc="lorem ipsum dolar sit amet">
+                                        About Me
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4 class="title">ckvoss</h4>
+                                <h6 class="category"><span class="label label-warning">Co-Owner</span></h6>
+                                <hr>
+                            </div>
+                        </div> <!-- end card -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 mix admins">
+                    <div class="card-box">
+                        <div class="card">
+                            <div class="header">
+                                <img src="https://mc-heads.net/avatar/Demerzel/300"/>
+                                <div class="filter"></div>
+
+                                <div class="actions">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="Demerzel" data-desc="
+                                                                                                                                                <p>Hello, I am the Lead Developer. I'm the brains of this operation; Skylar and Cameron would be lost without me ;)</p>
+                                                                                                                                                <p>While my main job is web development and making the website beautiful, I'll also oversee any new developer hires and help out with plugins if need be. If you like this website and want one like it, you can contact me on Skype.</p>
+                                                                                                                                                <p><b>Skype: kingofkingshf | Website: <a href='http://volition-dev.com' target='_blank'>Volition Development</a></b></p>">
+                                        About Me
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4 class="title">Demerzel</h4>
+                                <h6 class="category"><span class="label label-purple">Developer</span></h6>
+                                <hr>
+                            </div>
+                        </div> <!-- end card -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 mix admins">
+                    <div class="card-box">
+                        <div class="card">
+                            <div class="header">
+                                <img src="https://mc-heads.net/avatar/BlueDagger/300"/>
+                                <div class="filter"></div>
+
+                                <div class="actions">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="BlueDagger" data-desc="">
+                                        About Me
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4 class="title">BlueDagger</h4>
+                                <h6 class="category"><span class="label label-info">Admin</span></h6>
+                                <hr>
+                            </div>
+                        </div> <!-- end card -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 mix admins">
+                    <div class="card-box">
+                        <div class="card">
+                            <div class="header">
+                                <img src="https://mc-heads.net/avatar/Heughyy/300"/>
+                                <div class="filter"></div>
+
+                                <div class="actions">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="Heughyy" data-desc="">
+                                        About Me
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4 class="title">Heughyy</h4>
+                                <h6 class="category"><span class="label label-info">Admin</span></h6>
+                                <hr>
+                            </div>
+                        </div> <!-- end card -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 mix moderators">
+                    <div class="card-box">
+                        <div class="card">
+                            <div class="header">
+                                <img src="https://mc-heads.net/avatar/Irukundji/300"/>
+                                <div class="filter"></div>
+
+                                <div class="actions">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="Irukundji" data-desc="Hello, I am one of many staff members who has attained enlightenment, yet refrains from ascending into paradise out of compassion for all sentient beings. Here at Endermite, we believe in providing the optimal, classic Minecraft experience; a community where everyone truly feels welcome. I devote my unique gifts of passion and wisdom into making this dream become reality. This is my vision; an era of peace, prosperity, and happiness everlasting; where evildoers atone their sins though death.">
+                                        About Me
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4 class="title">Irukundji</h4>
+                                <h6 class="category"><span class="label label-danger">Moderator</span></h6>
+                                <hr>
+                            </div>
+                        </div> <!-- end card -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-3 mix moderators">
+                    <div class="card-box">
+                        <div class="card">
+                            <div class="header">
+                                <img src="https://mc-heads.net/avatar/Mizzou743/300"/>
+                                <div class="filter"></div>
+
+                                <div class="actions">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="Mizzou743" data-desc="">
+                                        About Me
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4 class="title">Mizzou743</h4>
+                                <h6 class="category"><span class="label label-danger">Moderator</span></h6>
+                                <hr>
+                            </div>
+                        </div> <!-- end card -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li><a href="">Contact</a></li>
+            <li><a href=""></a></li>
+            <li><a href="">Link 3</a></li>
+            <li><a href="">Link 4</a></li>
+            <li><a href="">Link 5</a></li>
+        </ul>
+        <ul class="right">
+            <li>&copy; 2016 Volition Development</li>
+        </ul>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/0275cb1589.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+<script src="js/hipster-cards.js"></script>
+<script src="js/blockd.js"></script>
+</body>
+</html>

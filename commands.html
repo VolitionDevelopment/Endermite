@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Endermite - Commands</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Ceviche+One|Fira+Sans|Julius+Sans+One" rel="stylesheet">
+    <link href="css/hipster_cards.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/blockd.css">
+</head>
+<body>
+
+<div class="modal fade" id="staffModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="title">Skylar</h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="top cover" id="top">
+        <div class="top-wrapper">
+            <h1>Command Reference</h1>
+            <p>A USEFUL GUIDE TO THE COMMON COMMANDS ON OUR SERVER</p>
+        </div>
+
+        <div class="row navigation">
+            <div class="nav-wrapper">
+                <div class="col-md-1 nav-item brand hidden"><a href="index.html"><p>Back</p></a></div>
+            </div>
+        </div>
+
+        <h2 class="arrow"><a href="#commands" class="glyphicon glyphicon-chevron-down"></a></h2>
+
+        <video class="bgvid" playsinline preload="auto" loop="loop" autoplay="false" muted="muted" volume="0">
+            <source src="images/compress.mp4" type="video/webm">
+            <source src="http://hpbt.net/images/videos/compress.mp4" type="video/mp4">
+            Video not supported
+        </video>
+    </div>
+    <div class="excerpt excerpt-white" id="commands">
+        <div class="excerpt-wrapper">
+            <h2>Command Reference</h2>
+            <div class="separator">
+                <div class="line"></div>
+                <h3><i class="fa fa-cubes"></i></h3>
+                <div class="line"></div>
+            </div>
+
+            <div id="Filters">
+                <div class="row">
+                    <h3>By Rank</h3>
+                    <fieldset>
+                        <button class="btn btn-warning btn-lg filter" data-filter=".owner">Owners</button>
+                        <button class="btn btn-info btn-lg filter" data-filter=".admin">Admins</button>
+                        <button class="btn btn-danger btn-lg filter" data-filter=".moderator">Moderators</button>
+                        <button class="btn btn-success btn-lg filter" data-filter=".mayor">Mayors</button>
+                        <button class="btn btn-primary btn-lg filter" data-filter=".player">Players</button>
+                    </fieldset>
+                </div>
+                <div class="row">
+                    <h3>By Plugin</h3>
+                    <fieldset>
+                        <button class="btn btn-warning btn-lg filter" data-filter=".essentials">Essentials</button>
+                        <button class="btn btn-info btn-lg filter" data-filter=".worldedit">WorldEdit</button>
+                        <button class="btn btn-danger btn-lg filter" data-filter=".core">CoreProtect</button>
+                        <button class="btn btn-success btn-lg filter" data-filter=".pex">Pex</button>
+                    </fieldset>
+                </div>
+            </div>
+            <hr>
+            <div class="row mixitup" id="Container">
+                <div class="col-md-3 mix owner worldedit">
+                    <div class="well">
+                        <h3>*</h3>
+                        <h3>WorldEdit</h3>
+                        <p><a href="http://wiki.sk89q.com/wiki/WorldEdit/Reference">View Reference Page</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner essentials">
+                    <div class="well">
+                        <h3>*</h3>
+                        <h3>Essentials</h3>
+                        <p><a href="http://wiki.ess3.net/wiki/Command_Reference">View Reference Page</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner core">
+                    <div class="well">
+                        <h3>*</h3>
+                        <h3>Core Protect</h3>
+                        <p><a href="http://minerealm.com/community/viewtopic.php?f=32&t=6781&p=82240">View Reference Page</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner pex">
+                    <div class="well">
+                        <h3>*</h3>
+                        <h3>Pex</h3>
+                        <p><a href="https://github.com/PEXPlugins/PermissionsEx/wiki/Commands">View Reference Page</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin essentials">
+                    <div class="well">
+                        <h3>/gamemode</h3>
+                        <p>This command allows you to switch between the 3 gamemodes.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin essentials">
+                    <div class="well">
+                        <h3>/enchant</h3>
+                        <p>The command will add an enchantment to the item the user is currently holding.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin essentials">
+                    <div class="well">
+                        <h3>/give</h3>
+                        <p>This command allows a player to gift another player with the defined amount of the specified item.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin essentials">
+                    <div class="well">
+                        <h3>/god</h3>
+                        <p>This command toggles 'god' status. In god mode you are invulnerable to all damage type</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin essentials">
+                    <div class="well">
+                        <h3>/time</h3>
+                        <p>Allows you to see and change the time on the server, either for a specific world or for all worlds.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin essentials">
+                    <div class="well">
+                        <h3>/broadcast</h3>
+                        <p>Displays a specified message to all players on the server.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin essentials">
+                    <div class="well">
+                        <h3>/vanish</h3>
+                        <p>When you type this command, become invisible ingame, and also hidden from most ingame commands.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin essentials">
+                    <div class="well">
+                        <h3>/weather</h3>
+                        <p>This command allows the manipulation of the weather on your current world.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin essentials">
+                    <div class="well">
+                        <h3>/banip</h3>
+                        <p>Bans the IP of a specified player.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator essentials">
+                    <div class="well">
+                        <h3>/fly</h3>
+                        <p>When you type this command, your client will be informed it is allowed to use creative mode fly.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator essentials">
+                    <div class="well">
+                        <h3>/seen</h3>
+                        <p>This command returns the time when the player last logged off.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator essentials">
+                    <div class="well">
+                        <h3>/ban</h3>
+                        <p>Bans a specified player. Accepts partial names.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator essentials">
+                    <div class="well">
+                        <h3>/unban</h3>
+                        <p>This command unbans the specified player.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator essentials">
+                    <div class="well">
+                        <h3>/jails</h3>
+                        <p>This command returns a list of all current jail locations.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator essentials">
+                    <div class="well">
+                        <h3>/socialspy</h3>
+                        <p>This command allows you to toggle the visability of other players direct messages and mail.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator essentials">
+                    <div class="well">
+                        <h3>/tempban</h3>
+                        <p>This command allows you to ban a player for a specified amount of time.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator essentials">
+                    <div class="well">
+                        <h3>/jail</h3>
+                        <p>Sends a specified player to a specified jail. The time argument is optional, and will override any previous set time.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator essentials">
+                    <div class="well">
+                        <h3>/tp</h3>
+                        <p>If the player has not disallowed teleportation this command will teleport you directly to a player.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator essentials">
+                    <div class="well">
+                        <h3>/tphere</h3>
+                        <p>	If the player has not disallowed teleportation this command will teleport you the player directly to you.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator core">
+                    <div class="well">
+                        <h3>/co help</h3>
+                        <p>Display a list of commands in-game.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator core">
+                    <div class="well">
+                        <h3>/co inspect</h3>
+                        <p>Enable the inspector. Type the command again to disable it. You can also use just "/co i".</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator core">
+                    <div class="well">
+                        <h3>/co rollback</h3>
+                        <p>u:&lt;user> t:&lt;time> r:&lt;radius> a:&lt;action> b:&lt;blocks> e:&lt;exclude></p>
+                        <p>Nearly all of the parameters are optional. Shortcut: "/co rb".</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator core">
+                    <div class="well">
+                        <h3>/co restore</h3>
+                        <p>u:&lt;user> t:&lt;time> r:&lt;radius> a:&lt;action> b:&lt;blocks> e:&lt;exclude></p>
+                        <p>Restoring can be used to undo rollbacks.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator core">
+                    <div class="well">
+                        <h3>/co lookup</h3>
+                        <p>u:&lt;user> t:&lt;time> r:&lt;radius> a:&lt;action> b:&lt;blocks> e:&lt;exclude></p>
+                        <p>Lookups can be used to search through block data.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator mayor essentials">
+                    <div class="well">
+                        <h3>/kick</h3>
+                        <p>This command will kick the specified player off the server.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator mayor essentials">
+                    <div class="well">
+                        <h3>/mute</h3>
+                        <p>Mutes or un-mutes a specified player. The time argument is optional, and will override any previous set time.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator mayor player essentials">
+                    <div class="well">
+                        <h3>/afk</h3>
+                        <p>This command toggles your AFK status.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator mayor player essentials">
+                    <div class="well">
+                        <h3>/help</h3>
+                        <p>The commands shown will be limited by permissions for essentials commands, and other plugins which provide permissions information.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator mayor player essentials">
+                    <div class="well">
+                        <h3>/helpop</h3>
+                        <p>This command allows players to send a message to players with the matching helpop permission.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator mayor player essentials">
+                    <div class="well">
+                        <h3>/list</h3>
+                        <p>This command lists the current player list, and gives the server slot/load count.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mix owner admin moderator mayor player essentials">
+                    <div class="well">
+                        <h3>/msg</h3>
+                        <p>The message will be sent directly to the player and not displayed to others unless they have the socialspy permission.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator mayor player essentials">
+                    <div class="well">
+                        <h3>/spawn</h3>
+                        <p>Teleports you to the location of your group's spawn.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator mayor player essentials">
+                    <div class="well">
+                        <h3>/home</h3>
+                        <p>Teleports you to the location of where you last used the /sethome command.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mix owner admin moderator mayor player essentials">
+                    <div class="well">
+                        <h3>/sethome</h3>
+                        <p>This command allows you to create a 'home' at your current location.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li><a href="">Contact</a></li>
+            <li><a href=""></a></li>
+            <li><a href="">Link 3</a></li>
+            <li><a href="">Link 4</a></li>
+            <li><a href="">Link 5</a></li>
+        </ul>
+        <ul class="right">
+            <li>&copy; 2016 Volition Development</li>
+        </ul>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/0275cb1589.js"></script>
+<script src="js/jquery.mixitup.js"></script>
+<script src="js/hipster-cards.js"></script>
+<script src="js/blockd.js"></script>
+</body>
+</html>

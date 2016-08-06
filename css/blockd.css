@@ -410,9 +410,7 @@ body {
 }
 
 .mixitup .well{
-    min-height: 300px;
-    padding: 20px;
-    box-sizing: border-box;
+    min-height: 225px;
 }
 
 .label-purple{
@@ -421,4 +419,8 @@ body {
 
 .btn.filter{
     margin: 10px;
+}
+
+.btn{
+    width: 160px;
 }

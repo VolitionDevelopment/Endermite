@@ -418,6 +418,11 @@ body {
     min-height: 225px;
 }
 
+.label{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 .label-purple{
     background-color: #770b6a;
 }

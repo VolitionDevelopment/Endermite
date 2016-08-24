@@ -409,6 +409,10 @@ body {
     font-size: 40px;
 }
 
+.mixitup{
+    min-height: 500px;
+}
+
 .mixitup .mix{
     display: none;
     margin-bottom: 35px;

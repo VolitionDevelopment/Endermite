@@ -434,7 +434,7 @@ body {
 }
 
 .label-yellow{
-    background-color: #dcd700;
+    background-color: #FFD700;
 }
 
 .label-darkred{
@@ -450,8 +450,8 @@ body {
 }
 
 .btn-yellow {
-    border-color: #dcd700;
-    color: #dcd700;
+    border-color: #FFD700;
+    color: #FFD700;
 }
 .btn-yellow:hover, .btn-yellow:focus, .btn-yellow:active, .btn-yellow.active, .open > .btn-yellow.dropdown-toggle {
     background-color: transparent;

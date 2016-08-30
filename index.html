@@ -49,10 +49,9 @@
         <h2 class="arrow"><a href="#about" class="glyphicon glyphicon-chevron-down"></a></h2>
 
         <video class="bgvid" playsinline preload="auto" loop="loop" autoplay="false" muted="muted" volume="0">
-            	<source src="images/compress.mp4" type="video/webm">
-        		Video not supported - Maybe get a better browser!
-        	</source>
-	</video>
+            <source src="images/compress.mp4" type="video/webm">
+            Video not supported - Maybe get a better browser!
+        </video>
 
     </div>
 
@@ -101,7 +100,7 @@
             </div>
             <div class="col-md-6 block">
                 <div class="block-image">
-                    <img src="http://i1073.photobucket.com/albums/w384/Pro219/thingyfields-1000.jpg">
+                    <img src="images/town.png">
                 </div>
             </div>
         </div>
@@ -129,37 +128,52 @@
     </div>
     <div class="spacer-md"></div>
     <div class="excerpt excerpt-white">
-	    <div class="excerpt-wrapper">
-		<h2>Plugins</h2>
-		<div class="separator">
-                	<div class="line"></div>
-                	<h3><i class="fa fa-cubes"></i></h3>
-                	<div class="line"></div>
-            	</div>
-		<p class="lead">We use a grand total of FOUR plugins on our server.</p>
-		<div class="row">
-			<div class="col-md-3">
-				<h3>Essentials</h3>
-				<p>A useful toolkit for players and admins alike. We've only given most of our players and staff the most basic commands. We want you guys focused on building!</p>
-			</div>
-			<div class="col-md-3">
-				<h3>WorldEdit</h3>
-				<p>Only three people on the server have access to the plugin and it is only to be used in case of emergency. You won't find us building giant palaces!</p>
-			</div>
+        <div class="excerpt-wrapper">
+            <h2>Plugins</h2>
+            <div class="separator">
+                <div class="line"></div>
+                <h3><i class="fa fa-cubes"></i></h3>
+                <div class="line"></div>
+            </div>
+            <p class="lead">We only use plugins that keep you safe from griefers.</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Essentials</h3>
+                    <p>A useful toolkit for players and admins alike. We've only given most of our players and staff the most basic commands. We want you guys focused on building!</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>WorldEdit</h3>
+                    <p>Only three people on the server have access to the plugin and it is only to be used in case of emergency. You won't find us building giant palaces!</p>
+                </div>
 
-			<div class="col-md-3">
-				<h3>CoreProtect</h3>
-				<p>We want to ensure that your builds are safe. That's why all of our moderators have the ability to roll back any damage done.</p>
-			</div>
-			
-			<div class="col-md-3">
-				<h3>Pex</h3>
-				<p>Obviously we want more than two groups on the server - ops and non-ops. Pex allows for donor ranks and different staff ranks.</p>
-			</div>
-		</div>
+                <div class="col-md-3">
+                    <h3>CoreProtect</h3>
+                    <p>We want to ensure that your builds are safe. That's why all of our moderators have the ability to roll back any damage done.</p>
+                </div>
 
-		<p class="lead">That's it!</p>
-	    </div>
+                <div class="col-md-3">
+                    <h3>Pex</h3>
+                    <p>Obviously we want more than two groups on the server - ops and non-ops. Pex allows for donor ranks and different staff ranks.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>LWC</h3>
+                    <p>CoreProtect doesn't protect you from thieves. LWC does! You need not worry about people taking your stuff and you can easily give certain people access.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>WorldGuard</h3>
+                    <p>We use WorldGuard to protect Spawn and certain other buildings. We use it sparingly in order to let our players shape the world.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Misc. Plugins</h3>
+                    <p>The rest of the plugins are purely for aesthetics and administrative purposes. Buycraft, colored tab list, EssentialsChat, etc.</p>
+                </div>
+            </div>
+            <br>
+            <p class="lead">That's it!</p>
+        </div>
     </div>
     <div class="spacer-md"></div>
     <div class="excerpt excerpt-grey" id="staff">
@@ -177,14 +191,14 @@
                         <button class="btn btn-darkred btn-lg filter" data-filter=".owners">Owners</button>
                         <button class="btn btn-danger btn-lg filter" data-filter=".admins">Admins</button>
                         <button class="btn btn-purple btn-lg filter" data-filter=".moderators">Moderators</button>
-                        <button class="btn btn-success btn-lg filter" data-filter=".mayors">Mayors</button>
                         <button class="btn btn-yellow btn-lg filter" data-filter=".builders">Builders</button>
+                        <button class="btn btn-success btn-lg filter" data-filter=".mayors">Mayors</button>
                     </fieldset>
                 </div>
             </div>
             <hr>
             <div class="row mixitup" id="Container">
-                <div class="col-md-3 mix owners mayors">
+                <div class="col-md-3 mix owners">
                     <div class="card-box">
                         <div class="card">
                             <div class="header">
@@ -261,7 +275,7 @@
                                 <div class="filter"></div>
 
                                 <div class="actions">
-					<button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="BlueDagger" data-desc="Hi everyone, my name is BlueDagger and I am one of the admins on Endermite! As an admin my job is to make sure that the community follows the rules, and ensure that everyone has a server to enjoy the old, classic mc without spammers, hackers or griefers, so that you can be welcomed cheerfully, from a great community of mc players! At Endermite our belief is creating the most fun classic Minecraft server ever! When it comes down to the responsibility of everyone having a good time, the staff are always there to help you. Griefers and Hackers will be banned and there is no reason to worry about your builds being griefed because we can rollback your builds! Hope you have a great time!<br><br>-BlueDagger">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="BlueDagger" data-desc="Hi everyone, my name is BlueDagger and I am one of the admins on Endermite! As an admin my job is to make sure that the community follows the rules, and ensure that everyone has a server to enjoy the old, classic mc without spammers, hackers or griefers, so that you can be welcomed cheerfully, from a great community of mc players! At Endermite our belief is creating the most fun classic Minecraft server ever! When it comes down to the responsibility of everyone having a good time, the staff are always there to help you. Griefers and Hackers will be banned and there is no reason to worry about your builds being griefed because we can rollback your builds! Hope you have a great time!<br><br>-BlueDagger">
                                         About Me
                                     </button>
                                 </div>
@@ -275,7 +289,7 @@
                         </div> <!-- end card -->
                     </div>
                 </div>
-                <div class="col-md-3 mix moderators">
+                <div class="col-md-3 mix admins">
                     <div class="card-box">
                         <div class="card">
                             <div class="header">
@@ -291,13 +305,13 @@
 
                             <div class="content">
                                 <h4 class="title">Shark415473</h4>
-                                <h6 class="category"><span class="label label-purple">Moderator</span><span class="label label-primary">Dev</span></h6>
+                                <h6 class="category"><span class="label label-danger">Admin</span><span class="label label-primary">Dev</span></h6>
                                 <hr>
                             </div>
                         </div> <!-- end card -->
                     </div>
                 </div>
-                <div class="col-md-3 mix admins builders">
+                <div class="col-md-3 mix moderators builders">
                     <div class="card-box">
                         <div class="card">
                             <div class="header">
@@ -363,23 +377,51 @@
                         </div> <!-- end card -->
                     </div>
                 </div>
-                <div class="col-md-3 mix mayors">
+                <div class="col-md-3 mix moderators">
                     <div class="card-box">
                         <div class="card">
                             <div class="header">
-                                <img src="https://mc-heads.net/avatar/KlintanHD/300"/>
+                                <img src="https://mc-heads.net/avatar/XxXRedfoxXxX/300"/>
                                 <div class="filter"></div>
 
                                 <div class="actions">
-                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="KlintanHD" data-desc="">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="XxXRedfoxXxX" data-desc="">
                                         About Me
                                     </button>
                                 </div>
                             </div>
 
                             <div class="content">
-                                <h4 class="title">KlintanHD</h4>
-                                <h6 class="category"><span class="label label-success">Mayor</span></h6>
+                                <h4 class="title">XxXRedfoxXxX</h4>
+                                <h6 class="category"><span class="label label-purple">Moderator</span></h6>
+                                <hr>
+                            </div>
+                        </div> <!-- end card -->
+                    </div>
+                </div>
+                <div class="col-md-3 mix moderators">
+                    <div class="card-box">
+                        <div class="card">
+                            <div class="header">
+                                <img src="https://mc-heads.net/avatar/Heughyy/300"/>
+                                <div class="filter"></div>
+
+                                <div class="actions">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="Heughyy" data-desc="<p>Hey, Im Heugh and I'm a moderator here at Endermite.</p>
+                                                                                                                                                                            <p>I wanted to work with the staff here because I believe minecraft should be played how it used to be, without griefing,hacking and hostility.</p>
+                                                                                                                                                                            <p>I wanted to help a server where everyone works together without killing eatchother, stealing and where everyone contributes towards the server by either</p>
+                                                                                                                                                                            <p>being staff,donating or even just by playing because without the players the server wouldn't be here.</p>
+                                                                                                                                                                            <p>I enjoy cycling, camping and outdoors things which I do with explorers on a Tuesday, watching streams on Twitch and of course gaming!</p>
+                                                                                                                                                                            <p>My favorite games include Minecraft, Counter Strike : Global Offensive and Overwatch!</p>
+                                                                                                                                                                            <p>If needed, see if im on the server and I'll message you my Skype if I am online.If not im sure one of the other staff members can help you out as much or more than I can</p>">
+                                        About Me
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4 class="title">Heughyy</h4>
+                                <h6 class="category"><span class="label label-purple">Moderator</span></h6>
                                 <hr>
                             </div>
                         </div> <!-- end card -->
@@ -407,7 +449,29 @@
                         </div> <!-- end card -->
                     </div>
                 </div>
-           </div>
+                <div class="col-md-3 mix mayors">
+                    <div class="card-box">
+                        <div class="card">
+                            <div class="header">
+                                <img src="https://mc-heads.net/avatar/KlintanHD/300"/>
+                                <div class="filter"></div>
+
+                                <div class="actions">
+                                    <button class="btn btn-round btn-fill btn-neutral btn-modern" data-toggle="modal" data-target="#staffModal" data-username="KlintanHD" data-desc="">
+                                        About Me
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4 class="title">KlintanHD</h4>
+                                <h6 class="category"><span class="label label-success">Mayor</span></h6>
+                                <hr>
+                            </div>
+                        </div> <!-- end card -->
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

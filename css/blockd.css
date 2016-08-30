@@ -416,6 +416,7 @@ body {
 .mixitup .mix{
     display: none;
     margin-bottom: 35px;
+    height: 360px;
 }
 
 .mixitup .well{
